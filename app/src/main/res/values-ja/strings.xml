@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SimpleSmartCtl</string>
+    <string name="status_default">USB機器未接続</string>
+    <string name="status_searching">検索中...</string>
+    <string name="status_connected">接続中: %1$s</string>
+    <string name="status_not_found">デバイス未検出</string>
+    <string name="status_permission_request">権限確認中...</string>
+    <string name="status_permission_denied">権限拒否</string>
+    <string name="status_retrieving">データ取得中...</string>
+    <string name="status_success">取得成功</string>
+    <string name="status_failed">取得失敗</string>
+
+    <string name="log_start">検索開始</string>
+    <string name="log_no_device">デバイスリストが空 (OTG確認)</string>
+    <string name="log_skip">スキップ (Mass Storageなし)</string>
+    <string name="log_found">発見: %1$s</string>
+    <string name="log_success_click">データ取得完了。解析ボタンを押してください。</string>
+    <string name="log_fail_msg">S.M.A.R.T.データの取得に失敗しました。</string>
+
+    <string name="btn_run">S.M.A.R.T. 情報を取得</string>
+    <string name="btn_score">解析結果を表示</string>
+    <string name="lang_switch">EN</string>
+
+    <string name="dialog_title">S.M.A.R.T. 解析結果</string>
+    <string name="dialog_close">閉じる</string>
+    <string name="score_total">【総合評価】</string>
+    <string name="rank_format">ランク: %.1f / 10</string>
+
+    <string name="state_s">状態: 非常に良好 (S)</string>
+    <string name="state_a">状態: 正常 (A)</string>
+    <string name="state_b">状態: 注意 (B)</string>
+    <string name="state_c">状態: 危険 (C) - バックアップ推奨</string>
+
+    <string name="attr_reallocated">代替処理済セクタ</string>
+    <string name="attr_pending">代替保留中セクタ</string>
+    <string name="attr_uncorrectable">回復不可能セクタ</string>
+    <string name="attr_temp">温度</string>
+    <string name="attr_hours">稼働時間</string>
+
+    <string name="msg_normal">正常</string>
+    <string name="msg_physical_damage">注意: 物理的破損の可能性</string>
+    <string name="msg_read_unstable">危険: 読み取り不安定</string>
+    <string name="msg_data_corrupt">危険: データ破損あり</string>
+    <string name="unit_temp">%1$d ℃</string>
+    <string name="unit_hours">%1$d 時間</string>
+    <string name="btn_disconnect">切断 (安全に取り外す)</string>
+    <string name="status_disconnected">未接続 (安全に取り外し可能)</string>
+    <string name="msg_disconnected">切断しました。ケーブルを抜いても安全です。</string>
+    <string name="dialog_copy">コピー</string>
+    <string name="msg_copied">クリップボードにコピーしました</string>
+</resources>

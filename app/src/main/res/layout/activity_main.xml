@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true">
+
+
+    <!-- 言語切り替えボタン: タイトルの下 -->
+    <Button
+        android:id="@+id/btnLangSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:text="@string/lang_switch"
+        android:textSize="12sp"
+        android:backgroundTint="#555555"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- ステータス表示エリア -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_background"
+        android:text="@string/status_default"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- 解析結果表示ボタン（初期は非表示） -->
+    <Button
+        android:id="@+id/btnShowScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_score"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- ログ表示エリア（スクロール可能） -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+    <!-- 実行ボタン -->
+    <Button
+        android:id="@+id/btnRunSmart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_run" />
+
+    <Button
+        android:id="@+id/btnDisconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btn_disconnect"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

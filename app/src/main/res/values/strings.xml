@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SimpleSmartCtl</string>
+    <string name="status_default">USB Device Not Connected</string>
+    <string name="status_searching">Searching...</string>
+    <string name="status_connected">Connected: %1$s</string>
+    <string name="status_not_found">Device Not Found</string>
+    <string name="status_permission_request">Requesting Permission...</string>
+    <string name="status_permission_denied">Permission Denied</string>
+    <string name="status_retrieving">Retrieving Data...</string>
+    <string name="status_success">Success</string>
+    <string name="status_failed">Failed</string>
+
+    <string name="log_start">Search Started</string>
+    <string name="log_no_device">Device list empty (Check OTG)</string>
+    <string name="log_skip">Skip (No Mass Storage)</string>
+    <string name="log_found">Found: %1$s</string>
+    <string name="log_success_click">Data retrieved. Click Analysis button.</string>
+    <string name="log_fail_msg">Failed to retrieve S.M.A.R.T. data.</string>
+
+    <string name="btn_run">Get S.M.A.R.T. Info</string>
+    <string name="btn_score">Show Analysis</string>
+    <string name="lang_switch">JA</string>
+
+    <string name="dialog_title">S.M.A.R.T. Analysis Result</string>
+    <string name="dialog_close">Close</string>
+    <string name="score_total">Total Score</string>
+    <string name="rank_format">Rank: %.1f / 10</string>
+
+    <string name="state_s">Condition: Excellent (S)</string>
+    <string name="state_a">Condition: Good (A)</string>
+    <string name="state_b">Condition: Warning (B)</string>
+    <string name="state_c">Condition: Danger (C) - Backup Required</string>
+
+    <string name="attr_reallocated">Reallocated Sectors</string>
+    <string name="attr_pending">Pending Sectors</string>
+    <string name="attr_uncorrectable">Uncorrectable Sectors</string>
+    <string name="attr_temp">Temperature</string>
+    <string name="attr_hours">Power-On Hours</string>
+
+    <string name="msg_normal">Normal</string>
+    <string name="msg_physical_damage">Warning: Possible Physical Damage</string>
+    <string name="msg_read_unstable">Danger: Read Unstable</string>
+    <string name="msg_data_corrupt">Danger: Data Corruption</string>
+    <string name="unit_temp">%1$d C</string>
+    <string name="unit_hours">%1$d Hrs</string>
+
+    <string name="btn_disconnect">Disconnect (Safely Remove)</string>
+    <string name="status_disconnected">Disconnected (Safe to remove)</string>
+    <string name="msg_disconnected">Disconnected. It is safe to unplug.</string>
+    <string name="dialog_copy">Copy</string>
+    <string name="msg_copied">Copied to clipboard</string>
+</resources>
